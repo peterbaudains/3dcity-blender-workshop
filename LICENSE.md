@@ -1,8 +1,8 @@
-# Sample Data
+## Sample Data
 
 Data files contained in the sample_data directory contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). It is redistributed here under the terms of this license.
 
-# Code
+## Code
 
 Except where otherwise noted, the code contained in this repository is made available on the BSD-3-Clause License.
 
