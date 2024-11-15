@@ -27,6 +27,14 @@ To run the `choropleth_overlay_generator.py` function, a dedicated conda environ
 
 `conda create --name 3dcity-workshop-env --channel conda-forge geopandas matplotlib`
 
-## Data acknowledgements
+## Licensing and attribution
 
-This repository contains sample data from the 2021 Census downloaded from [nomisweb](https://www.nomisweb.co.uk), geospatial boundaries obtained from the [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/) and [Food Hygiene Rating Data](https://ratings.food.gov.uk) from the Food Standards Agency. Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+Data (under the `sample_data` directory) contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+This data has been obtained from the following sources:
+
+- 2021 Census data from [nomisweb](https://www.nomisweb.co.uk)
+- Geospatial boundary data from the [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/)
+- [Food Hygiene Rating Data](https://ratings.food.gov.uk) from the UK Food Standards Agency.
+
+All other code is licensed under BSD-3-Clause. See [LICENSE](LICENSE) for more information.
