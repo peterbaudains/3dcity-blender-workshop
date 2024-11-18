@@ -73,7 +73,7 @@ if __name__=="__main__":
     Texture_width = 6304.83
     Texture_height = 12523.04
 
-    texture_file_path = str(Path.home()) + str(Path("/Code/3dcity-blender/images/popden_texture.png"))
+    texture_file_path = str(Path.home()) + str(Path("/Code/3dcity-blender-workshop/images/popden_texture.png"))
 
     material = create_material(eastings_wotts=Eastings_world_origin_to_texture_start, 
                                northings_wotts=Northings_world_origin_to_texture_start,                 
@@ -81,7 +81,7 @@ if __name__=="__main__":
                                texture_height=Texture_height, 
                                texture_file_path=texture_file_path)
     
-    for o in ("HIGH_DETAIL_BUILDINGS", "UNDER_CONSTRUCTION", "UNDER_SCAFFOLD"):
+    for o in ("HIGH_DETAIL_BUILDINGS", "UNDER_CONSTRUCTION", "UNDER_SCAFFOLD", "28_42_London_Bridge"):
         obj = bpy.context.scene.objects.get(o)
         if obj: obj.select_set(True)
         # apply material - overwriting if it already exists
