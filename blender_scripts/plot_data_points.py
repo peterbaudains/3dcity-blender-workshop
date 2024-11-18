@@ -96,6 +96,9 @@ def add_data_point(
     # Apply disk material
     obj.data.materials.append(disk_material)
     
+    # Turn off shadow
+    setattr(obj, 'visible_shadow', False)
+
     # Add a constraint to the disk to track the camera.
     constraint = obj.constraints.new(type='TRACK_TO')
     camera_obj = bpy.data.objects['Camera']
@@ -111,6 +114,9 @@ def add_data_point(
 
     # Set the material to stick_material.
     obj.data.materials.append(stick_material)
+
+    # Turn off shadow
+    setattr(obj, 'visible_shadow', False)
 
 
 if __name__=="__main__": 
